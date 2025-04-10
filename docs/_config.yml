@@ -1,7 +1,23 @@
 title: Centre d'aide Qlub
-description: Documentation et aide pour l'utilisation de Qlub et Qlub+
-theme: jekyll-theme-cayman
-lang: fr
+description: Centre d'aide pour Qlub et Qlub+
+baseurl: ""
+url: "https://aide.qlub.social"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git/
 
 # Configuration de la navigation
 nav:

@@ -1,3 +1,7 @@
+---
+layout: home
+---
+
 <div style="text-align: center; margin: 20px 0;">
   <img src="./assets/banner.png" alt="Logo Qlub" style="height: auto;">
 </div>

@@ -1,18 +1,6 @@
----
-layout: home
-title: Centre d'aide Qlub
-description: Documentation et guides pour l'utilisation de Qlub et Qlub+, la plateforme sociale québécoise
----
-
 <div style="text-align: center; margin: 20px 0;">
   <img src="./assets/banner.png" alt="Logo Qlub" style="height: auto;">
 </div>
-
-<style>
-table {
-  width: 100%;
-}
-</style>
 
 # 🚑 Centre d'aide Qlub
 

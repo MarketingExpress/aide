@@ -1,0 +1,43 @@
+# Fichiers système
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Fichiers d'édition
+*.swp
+*.swo
+*~
+*.bak
+*.tmp
+
+# Fichiers de build
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Fichiers de dépendances
+node_modules/
+vendor/
+.bundle/
+
+# Fichiers de configuration locaux
+_config.local.yml
+.env
+
+# Captures d'écran en cours de travail
+docs/screenshots/**/work-in-progress/
+*.psd
+*.ai
+*.sketch
+
+# Fichiers de logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Fichiers de sauvegarde
+*.bak
+*.backup
+*_backup 

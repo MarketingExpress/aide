@@ -1,0 +1,100 @@
+title: Centre d'aide Qlub
+description: Documentation et aide pour l'utilisation de Qlub et Qlub+
+theme: jekyll-theme-cayman
+lang: fr
+
+# Configuration de la navigation
+nav:
+  - title: Accueil
+    url: /
+  - title: Guides
+    children:
+      - title: Créer un compte
+        url: /guides/create-account
+      - title: Configurer son profil
+        url: /guides/profile
+      - title: Sécurité
+        url: /guides/security
+      - title: Notifications
+        url: /guides/notifications
+      - title: Invitations
+        url: /guides/invitations
+      - title: Application mobile
+        url: /guides/mobile
+      - title: Fils d'actualité
+        url: /guides/timelines
+      - title: Suivre des comptes
+        url: /guides/following
+      - title: Interagir
+        url: /guides/interacting
+      - title: Listes
+        url: /guides/lists
+      - title: Hashtags
+        url: /guides/hashtags
+      - title: Modération
+        url: /guides/moderation
+      - title: Publier du contenu
+        url: /guides/publishing
+      - title: Visibilité
+        url: /guides/visibility
+      - title: Mentions
+        url: /guides/mentions
+  - title: Qlub+
+    children:
+      - title: Présentation
+        url: /guides/qlub-plus
+      - title: Migration vers Qlub+
+        url: /guides/migration-to-plus
+
+# Configuration du footer
+footer:
+  - title: Qlub
+    url: https://qlub.social
+  - title: Qlub+
+    url: https://plus.qlub.social
+  - title: Support
+    url: mailto:support@qlub.social
+  - title: GitHub
+    url: https://github.com/qlub-help/qlub-help.github.io
+
+# Configuration des plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-relative-links
+  - jekyll-redirect-from
+  - jekyll-include-cache
+  - jekyll-remote-include
+
+# Configuration SEO
+author:
+  name: Qlub
+  email: support@qlub.social
+  url: https://qlub.social
+
+# Configuration des métadonnées
+description: Centre d'aide et documentation pour l'utilisation de Qlub et Qlub+, instances Mastodon
+keywords: mastodon, qlub, qlub+, fediverse, social network, documentation, aide, guide, support
+
+# Configuration des captures d'écran
+screenshots:
+  directory: /screenshots
+  formats:
+    - png
+    - jpg
+    - webp
+  max_width: 1200
+  quality: 85
+
+# Configuration des liens relatifs
+relative_links:
+  enabled: true
+  collections: true
+
+# Configuration du cache
+include:
+  cache: true
+
+# Configuration des mises à jour
+last_updated: true 

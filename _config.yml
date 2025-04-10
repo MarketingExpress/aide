@@ -1,0 +1,29 @@
+title: Centre d'aide Qlub
+description: Centre d'aide pour Qlub et Qlub+
+baseurl: ""
+url: "https://qlub-help.github.io"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git/
+  - .github/
+  - .gitignore
+  - .DS_Store
+
+# Collections
+collections:
+  guides:
+    output: true
+    permalink: /:collection/:path/ 
